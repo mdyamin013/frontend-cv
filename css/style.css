@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+	
+}
+ul{
+	padding-left: 15px;
+}
+ul li{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+	text-transform: capitalize;
+}
+ul li::marker{
+    color: #ed5034;
+}
+a{
+    display: inline-block !important;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    overflow-x: hidden;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	border-left: 4px solid #000000;
+	border-right: 4px solid #000000;
+}
+#hader_part .title h1{
+    font-family: Tahoma;
+	font-size: 72px;
+	font-weight: 400;
+}
+h2{
+    font-size: 48px;
+	text-transform: capitalize;
+	font-family: Tahoma;
+}
+h3{
+    font-size: 28px;
+    color: #ed5034;
+    font-family: 'Kufam', cursive;
+	font-weight: 500;
+	text-transform: capitalize;
+	position: relative;
+	padding-top: 20px;
+}
+h3::after {
+	width: 26%;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	bottom: -5px;
+	left: 0%;
+	content: " ";
+}
+#skill_part h3::after {
+	width: 5.5%;
+}
+h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.774);
+	padding-top: 15px;
+	text-transform: capitalize;
+}
+h5 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 18px;
+	color: #000;
+	text-transform: capitalize;
+	padding: 5px 0;
+}
+h6 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+}
+p{
+	font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+	text-transform: capitalize;
+}
+.row{
+	position: relative;
+}
+i{
+	width: 35px;
+	background: #ed5034;
+	color: #ffffff;
+	text-align: center;
+	height: 35px;
+	border-radius: 50%;
+	transition: .4s;
+}
+/* =============hader part css start============== */
+#hader_part{
+    width: 100%;
+    height: 300px;
+}
+.body_middle_sape {
+	width: 7px;
+	height: 1667px;
+	background: rgba(19, 20, 18, 0.26);
+	position: absolute;
+	top: 0%;
+	content: " ";
+	z-index: 99;
+	margin-left: 41.9% !important;
+}
+#hader_part .hader_left {
+	border-top: 4px solid #000000;
+	padding-left: 0;
+}
+
+#hader_part .hader_left .image:hover .overlay{
+	opacity: 0;
+}
+#hader_part .image {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	z-index: 11;
+}
+#hader_part .image .shape {
+	height: 100%;
+	width: 100%;
+	background: #ed5034;
+	position: absolute;
+	top: 0;
+	left: 0;
+	clip-path: polygon(0 0, 100% 0, 100% 53%, 0% 100%);
+}
+#hader_part .image .round {
+	width: 240px;
+	height: 240px;
+	background: #fff;
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+}
+#hader_part .image .round .img_round {
+	width: 200px;
+	height: 200px;
+	background: rgba(217, 216, 208, 0.96);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+}
+#hader_part .image .round .img_round img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+#hader_part .hader_right {
+	padding: 10px 20px 10px 60px;
+	border-top: 4px solid #000000;
+}
+#hader_part .title p {
+	width: 530px;
+}
+
+#hader_part .title h4 {
+	color: #ed5034;
+	font-weight: 500;
+	padding-bottom: 20px;
+	padding-top: 0;
+}
+/* =============hader part css end============== */
+
+/* =============contack part banner css start============== */
+#contack_part .contack_left{
+	padding: 20px 40px;
+}
+#contack_part .my_contack h5 {
+	padding-left: 50px;
+	font-weight: 600;
+	padding-top: 25px;
+}
+#contack_part .my_contack a {
+	position: relative;
+	padding-left: 50px;
+}
+#contack_part .my_contack i {
+	font-weight: bold;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	font-size: 16px;
+	line-height: 35px;
+	transition: .4s;
+}
+#contack_part .my_contack i:hover{
+	color: #ed5034;
+	background: #000;
+}
+#contack_part .contack_right{
+	padding: 20px 20px 10px 60px;
+}
+#contack_part .experince h4{
+	font-size: 20px;
+}
+#contack_part .experince h6{
+	padding-bottom: 10px;
+}
+
+#contack_part .experince h3::after {
+	width: 22%;
+}
+#contack_part .experince h3::before {
+	width: 4%;
+	height: 40px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -67px;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#contack_part .experince p {
+    padding: 10px 0;
+    width: 466px;
+}
+
+/* =============contack part banner css end============== */
+
+/* =============education part css start============== */
+#eaducation_part .eaducation_left {
+	padding: 0px 40px;
+	padding-right: 0;
+}
+#eaducation_part .eaducation{
+	padding-bottom: 20px;
+}
+#eaducation_part .eaducation .year {
+	padding-top: 10px;
+}
+#eaducation_part .eaducation h4 {
+	font-weight: 600;
+}
+#eaducation_part .eaducation h5 {
+	font-size: 18px;
+	font-weight: 500;
+	padding: 5px 0;
+}
+#eaducation_part .eaducation h6 {
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+#eaducation_part .eaducation h3::after{
+	width: 34%;
+}
+#eaducation_part .spcial_qualification h3{
+    padding-top: 0;
+}
+#eaducation_part .spcial_qualification h3::before {
+	width: 4%;
+	height: 40px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -67px;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#eaducation_part .spcial_qualification h3::after{
+	width: 51%;
+}
+#eaducation_part .eaducation_right{
+	padding: 20px 20px 10px 60px;
+}
+#eaducation_part .eaducation_right h6{
+	padding: 10px 0;
+}
+#eaducation_part .spcial_qualification .topic_title {
+	display: flex;
+	padding: 10px 0;
+}
+#eaducation_part .topic_title .topic{
+    margin-left: 40px;
+}
+#eaducation_part .interest h3::before {
+	width: 3%;
+	height: 30px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -67px;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#eaducation_part .interest h3::after {
+	width: 18%;
+}
+#eaducation_part .interest p {
+    padding: 20px 0;
+    width: 400px;
+}
+/* =============education part css end============== */
+
+/* =============skill_part story css start============== */
+.position_progressbar{
+	margin-left: 25px;
+}
+#skill_part .skill_left {
+	padding: 20px 40px;
+	display: flex;
+	border-bottom: 4px solid #000;
+}
+#skill_part .phone {
+	margin-bottom: 15px;
+}
+#skill_part .skill_name h3{
+	padding-bottom: 10px;
+}
+#skill_part .skill_name h3::after {
+	width: 38%;
+	bottom: 5px;
+}
+
+#skill_part .refarence {
+	display: flex;
+}
+#skill_part .refarence h3::after {
+	width: 50%;
+}
+#skill_part .refarence .detals h3 {
+	padding-top: 20px;
+	margin-left: 10px;
+}
+#skill_part .refarence h5{
+	color: #ed5034;
+}
+#skill_part .refarence h6{
+	color: #000;
+}
+#skill_part .skill_right {
+    padding: 20px 20px 60px 60px;
+    margin-left: 60px;
+    margin-top: -12%;
+}
+#skill_part .skill_right .follow{
+	display: flex;
+	margin-left: 25px;
+}
+#skill_part .skill_right h3{
+	padding-top: 0px;
+}
+
+#skill_part .skill_right h3::after {
+	width: 20%;
+}
+#skill_part .skill_right h3::before {
+	width: 4%;
+	height: 40px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -6.5%;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#skill_part .skill_right .follow h5{
+	padding: 20px 0 0 50px;
+}
+#skill_part .skill_right .follow a {
+	padding: 0px 30px 20px 50px;
+	font-size: 14px;
+}
+#skill_part .skill_right .follow i {
+	font-size: 16px;
+	background: #ed5034;
+	color: #ffffff;
+	margin-top: -25px;
+	position: absolute;
+	margin-left: -50px;
+	line-height: 35px;
+	font-weight: bold;
+}
+#skill_part .skill_right i:hover{
+	background: #000;
+	color: #ed5034;
+}
+#skill_part .skill_right .follow2 {
+	padding-left: 35px;
+}
+#skill_part .skill_right .follow2 i {
+	margin-top: -25px;
+	margin-left: -50px;
+}
+#skill_part .skill_right .refarence h3::before {
+	width: 12%;
+	height: 40px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5px;
+	left: -53px;
+	content: " ";
+	clip-path: polygon(0 6%, 100% 50%, 0 91%, 0% 50%);
+}
+#skill_part .skill_right .refarence h3::after {
+	width: 75%;
+}
+#skill_part .refarence a{
+	padding: 5px 0;
+}
+#skill_part .refarence i {
+	margin-right: 20px;
+	line-height: 35px;
+}
+#skill_part .refarence .detals{
+	padding-left: 25px;
+}
+#skill_part .refarence .detals2{
+	padding-top: 85px;
+	padding-left: 20%;
+}
+#skill_part .date h4{
+	font-size: 18px;
+	font-weight: 700;
+	position: relative;
+}
+#skill_part .date h4::after {
+    width: 7%;
+    height: 1.5px;
+    background: #000;
+    bottom: -2px;
+    content: " ";
+    position: absolute;
+    left: 0px;
+}
+#skill_part .date p{
+	font-size: 16px;
+	margin-top: 5px;
+}
+#skill_part .signature {
+	margin-top: -70px;
+	padding-left: 50%;
+	text-align: center;
+}
+#skill_part .signature h4{
+	position: relative;
+	font-size: 18px;
+	font-weight: 700;
+}
+#skill_part .signature h4::after {
+    width: 45%;
+    height: 2px;
+    background: #000;
+    bottom: -5px;
+    content: " ";
+    position: absolute;
+    left: 95px;
+}
+#skill_part .signature p {
+	font-family: 'Ballet', cursive;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+/* =============skill_part story css end============== */
+/* =============skill_part progressbar css start============== */
+
+/*
+    Default Style
+*/
+#skill_part .progressbar {
+    border-radius: 5px !important;
+}
+#skill_part .proggress {
+    border-radius: 5px !important;
+}
+.progressbar {
+	background-color: #ffffff;
+}
+#skill_part h5 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+    padding: 0;
+}
+.date {
+    padding-left: 25px;
+}
+#skill_part .progressbar h3 {
+    padding-top: 0;
+    margin-bottom: 30px;
+	margin-left: 25px;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+:root {
+    --body-font: 'Poppins', sans-serif;
+}
+
+* {
+    font-family: var(--body-font);
+}
+
+.single-progressbar .title {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.single-progressbar {
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card .card-header .title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.card .card-body code {
+    background-color: #efecec;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.header .title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header .title::first-letter {
+    color: #fc4444;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 40px;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu li a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 500ms;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: #fc4444;
+}
+
+ul.menu li+li {
+    margin-left: 25px;
+}
+/* =============skill_part progressbar css end============== */
+.body_bottom_sape{
+	position: relative;
+}
+.bottom_sape {
+    width: 86.8%;
+    height: 5px;
+    background: #000000;
+    position: absolute;
+    margin-top: -30px;
+    z-index: 99;
+    margin-left: 100px;
+}
